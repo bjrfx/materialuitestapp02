@@ -1,26 +1,19 @@
-import { Button, Typography } from "@mui/material";
-import SettingsIcon from '@mui/icons-material/Settings';
-import styled from "@emotion/styled";
+import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed"
+import Rightbar from "./components/Rightbar";
+import { Box, Stack } from "@mui/material";
+import Navbar from "./components/Navbar";
 
 function App() {
-  const CrimsonButton = styled(Button) ({
-    backgroundColor: "crimson",
-    color: "white",
-    margin: 5,
-    "&:hover": {
-      backgroundColor: "#E2654B"
-    }
-  })
   return (
-    <div>
-    <Button variant="text">Text</Button>
-    <Button endIcon={<SettingsIcon />} size="small" color="warning" variant="contained">Settings</Button>
-    <Button variant="outlined">Outlined</Button>
-    <Typography variant="h1" component="p">
-      It uses h1 style but it's a P tag
-    </Typography>
-    <CrimsonButton>Crimson</CrimsonButton>
-    </div>
+      <Box>
+        <Navbar />
+        <Stack direction="row" spacing={2} justifyContent="space-between">
+        <Sidebar />
+        <Feed />
+        <Rightbar />
+        </Stack>
+      </Box>
   );
 }
 
