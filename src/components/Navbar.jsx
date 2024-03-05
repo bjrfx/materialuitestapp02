@@ -52,7 +52,7 @@ const Navbar = () => {
   return (
     <AppBar position='sticky'>
       <StyledToolbar>
-        <Typography variant='h6' sx={{display: {xs: "none", sm: "block"}}}>Bagavad Gita</Typography>
+        <Typography variant='h6' sx={{display: {xs: "none", sm: "block"}}}>భగవద్గీత</Typography>
         <SelfImprovementIcon sx={{display: {xs: "block", sm: "none"}}} />
         <Search><InputBase placeholder='search...'/></Search>
       <Icons>
