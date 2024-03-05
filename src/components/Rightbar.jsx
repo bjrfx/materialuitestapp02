@@ -67,7 +67,7 @@ const Rightbar = () => {
           <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Brunch this weekend?"
+          primary="అర్జున విషాద యోగము?"
           secondary={
             <React.Fragment>
               <Typography
@@ -76,7 +76,7 @@ const Rightbar = () => {
                 variant="body2"
                 color="text.primary"
               >
-                Ali Connors
+                అర్జున
               </Typography>
               {" — I'll be in your neighborhood doing errands this…"}
             </React.Fragment>
@@ -89,7 +89,7 @@ const Rightbar = () => {
           <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Summer BBQ"
+          primary="అర్జున"
           secondary={
             <React.Fragment>
               <Typography
@@ -98,9 +98,9 @@ const Rightbar = () => {
                 variant="body2"
                 color="text.primary"
               >
-                to Scott, Alex, Jennifer
+                సంజయుడు , అర్జున 
               </Typography>
-              {" — Wish I could come, but I'm out of town this…"}
+              {" —  సంజయుడు పలికెను; దృష్ట్వా — గమనించిన…"}
             </React.Fragment>
           }
         />
@@ -111,7 +111,7 @@ const Rightbar = () => {
           <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Oui Oui"
+          primary="దృష్ట్వా"
           secondary={
             <React.Fragment>
               <Typography
@@ -120,9 +120,9 @@ const Rightbar = () => {
                 variant="body2"
                 color="text.primary"
               >
-                Sandra Adams
+                సంజయుడు అర్జున
               </Typography>
-              {' — Do you have Paris recommendations? Have you ever…'}
+              {' —  సంజయుడు పలికెను; దృష్ట్వా — గమనించిన…'}
             </React.Fragment>
           }
         />
