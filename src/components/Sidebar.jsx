@@ -9,7 +9,7 @@ import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 import SettingsIcon from '@mui/icons-material/Settings';
 import Switch from '@mui/material/Switch';
 import Night from '@mui/icons-material/Brightness6';
-const Sidebar = () => {
+const Sidebar = ({mode, setMode}) => {
   return (
     <Box  flex={1} p={2} sx={{ display: {xs: "none", sm: "block"}}}>
       <Box position="fixed"> 
@@ -96,7 +96,7 @@ const Sidebar = () => {
               <ListItemIcon>
               <Night />
               </ListItemIcon>
-              <Switch />
+              <Switch onChange={e=>setMode(mode === "light" ? "dark" : "light")}/>
             </ListItemButton>
           </ListItem>
         </List>

@@ -12,7 +12,7 @@ const Feed = () => {
       <Post />
       <Post />
       <Pagination count={10} variant="outlined" />
-      <FloatingButton />
+      {/* <FloatingButton /> */}
     </Box>
   );
 };

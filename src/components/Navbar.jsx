@@ -26,7 +26,8 @@ const Navbar = () => {
     backgroundColor: "white",
     padding: "0 10px",
     borderRadius: "5px",
-    width: "40%"
+    width: "40%",
+    color: "grey"
   }));
 
   //Icon
